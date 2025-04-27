@@ -10,11 +10,11 @@ Both versions are compared in terms of efficiency by counting the number of mini
 
 # Key Differences
 
-Feature	Minimax Only	Alpha-Beta Pruning
-Speed	Slower for complex trees	Faster by skipping unnecessary branches
-Number of Evaluations	High	Significantly lower
-Code Complexity	Simple recursion	Slightly more complex with pruning conditions
-Optimal Play	✅ Always finds best move	✅ Always finds best move
+Feature | Minimax Only | Alpha-Beta Pruning
+Speed | Slower for complex trees | Faster by skipping unnecessary branches
+Number of Evaluations | High | Significantly lower
+Code Complexity | Simple recursion | Slightly more complex with pruning conditions
+Optimal Play | ✅ Always finds best move | ✅ Always finds best move
 ✅ Both algorithms always play perfectly.
 ♻️ Alpha-Beta just does it faster by avoiding redundant calculations!
 
